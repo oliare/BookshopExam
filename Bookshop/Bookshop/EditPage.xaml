@@ -9,7 +9,11 @@
       Title="EditPage">
 
 
+<<<<<<< HEAD
+    <Grid Background="#FFF3F0FF">
+=======
     <Grid Background="Ivory">
+>>>>>>> 9f6134b44aaecbd8af703c0037a0e5082d9b87a9
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
             <RowDefinition Height="*"/>
@@ -32,7 +36,11 @@
         </ToolBar>
 
         <Label Content="* here you can view, delete, add and edit books" Foreground="Green" FontSize="10" FontStyle="Italic" Grid.Column="2" Margin="23,2,6,114" Grid.Row="1"/>
+<<<<<<< HEAD
+        <DataGrid x:Name="grid" Grid.ColumnSpan="3" CanUserAddRows="True"  Grid.RowSpan="3" AutoGenerateColumns="True" Margin="30,25,30,60" Grid.Row="1 " Background="White" CellEditEnding="grid_CellEditEnding">
+=======
         <DataGrid x:Name="grid"  Grid.ColumnSpan="3" Grid.RowSpan="3" AutoGenerateColumns="True" Margin="30,25,30,60" Grid.Row="1" Background="White" CellEditEnding="grid_CellEditEnding">
+>>>>>>> 9f6134b44aaecbd8af703c0037a0e5082d9b87a9
             <DataGrid.Columns>
 
             </DataGrid.Columns>
@@ -42,9 +50,20 @@
          Content="Save changes" Margin="75,95,75,20" FontWeight="Bold" FontFamily="Book Antiqua"
                 FontSize="14" Grid.Column="1" Grid.Row="3"  Click="saveChanges_Click"/>
 
+<<<<<<< HEAD
+        <Button x:Name="Add" Foreground="White" BorderBrush="Black" Background="#FFCCAFD7"  
+         Content="Add" Margin="30,95,115,20" Click="add_Click" FontWeight="Bold" FontFamily="Book Antiqua"
+                FontSize="14" Grid.Row="3"/>
+
+        <Button x:Name="Delete" Foreground="White" BorderBrush="Black" Background="#FFDD697E"  
+         Content="Delete" Margin="115,95,30,20" Click="delete_Click" FontWeight="Bold" FontFamily="Book Antiqua"
+                FontSize="14" Grid.Row="3" Grid.Column="2"/>
+
+=======
         <Button x:Name="Delete" Foreground="White" BorderBrush="Black" Background="#FFDD697E"  
          Content="Delete" Margin="30,95,119,20" Click="delete_Click" FontWeight="Bold" FontFamily="Book Antiqua"
                 FontSize="14" Grid.Row="3"/>
+>>>>>>> 9f6134b44aaecbd8af703c0037a0e5082d9b87a9
 
     </Grid>
 </Page>
